@@ -1,0 +1,9 @@
+{
+  "name": "色彩流动(HueFlow)",
+  "id": 188205973773105,
+  "main": "dist/main.js",
+  "ui": "dist/index.html",
+  "editor_type": [
+    "canvas"
+  ]
+}

@@ -1,0 +1,185 @@
+.container.is-super :global(body) {
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.96), transparent 28%),
+    linear-gradient(180deg, #f8f7f4 0%, #efefed 100%);
+}
+
+.container.is-super {
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.82), transparent 30%),
+    linear-gradient(180deg, #f8f7f4 0%, #efefed 100%);
+}
+
+.container.is-super .tab-content {
+  gap: 14px;
+  padding: 14px 14px 16px;
+  background: rgba(255, 255, 255, 0.86);
+  border-top: 1px solid rgba(26, 28, 35, 0.08);
+  border-radius: 0;
+  box-shadow: 0 8px 24px rgba(24, 29, 36, 0.04);
+}
+
+.container.is-super .tab-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.container.is-super .tip {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(241, 241, 240, 0.92);
+  color: #6c7280;
+}
+
+.container.is-super .filter-group,
+.container.is-super .settings-row,
+.container.is-super .btn-group-top {
+  gap: 10px;
+}
+
+.container.is-super .filter-group {
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(26, 28, 35, 0.08);
+}
+
+.container.is-super .checkbox-label {
+  color: #424750;
+}
+
+.container.is-super .label,
+.container.is-super .label-sm {
+  color: #2b2f36;
+  font-weight: 600;
+}
+
+.container.is-super .control,
+.container.is-super .setting-item,
+.container.is-super .color-preview-wrapper {
+  gap: 10px;
+}
+
+.container.is-super .slider,
+.container.is-super .slider-sm {
+  accent-color: #2a93eb;
+}
+
+.container.is-super .slider::-webkit-slider-thumb,
+.container.is-super .slider-sm::-webkit-slider-thumb {
+  background: linear-gradient(180deg, #ffffff, #dfe3eb);
+  border-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(21, 25, 32, 0.22);
+}
+
+.container.is-super .slider::-moz-range-thumb,
+.container.is-super .slider-sm::-moz-range-thumb {
+  background: linear-gradient(180deg, #ffffff, #dfe3eb);
+  border-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(21, 25, 32, 0.22);
+}
+
+.container.is-super .input,
+.container.is-super .color-picker-sm,
+.container.is-super .btn,
+.container.is-super .btn-primary-sm,
+.container.is-super .btn-secondary,
+.container.is-super .btn-remove {
+  border-radius: 12px;
+  border: 1px solid rgba(26, 28, 35, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.66);
+}
+
+.container.is-super .input {
+  background: rgba(255, 255, 255, 0.94);
+  color: #23262d;
+}
+
+.container.is-super .footer {
+  padding-top: 8px;
+}
+
+.container.is-super .btn {
+  background: linear-gradient(180deg, #2a9cff, #1783ec);
+  box-shadow:
+    0 10px 20px rgba(39, 124, 230, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+}
+
+.container.is-super .btn:hover {
+  background: linear-gradient(180deg, #43abff, #1b8ff6);
+}
+
+.container.is-super .btn-primary-sm {
+  background: linear-gradient(180deg, #2a9cff, #1783ec);
+  color: #ffffff;
+}
+
+.container.is-super .btn-primary-sm:hover {
+  background: linear-gradient(180deg, #43abff, #1b8ff6);
+}
+
+.container.is-super .btn-secondary {
+  background: rgba(255, 255, 255, 0.94);
+  color: #3a3f49;
+}
+
+.container.is-super .btn-secondary:hover {
+  border-color: rgba(42, 147, 235, 0.36);
+  color: #1b84ee;
+}
+
+.container.is-super .btn-remove {
+  background: rgba(255, 255, 255, 0.88);
+  color: #3a3f49;
+}
+
+.container.is-super .btn-remove:hover {
+  color: #111318;
+  border-color: rgba(26, 28, 35, 0.18);
+}
+
+.container.is-super .preset-grid,
+.container.is-super .super-palette-host {
+  min-height: 0;
+}
+
+.container.is-super .gradient-editor {
+  border: 1px solid rgba(26, 28, 35, 0.08);
+  border-radius: 18px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.62),
+    0 10px 24px rgba(24, 29, 36, 0.06);
+}
+
+.container.is-super .color-stops {
+  gap: 10px;
+}
+
+.container.is-super .preset-grid {
+  gap: 8px;
+  flex: 1 1 auto;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+  align-content: start;
+}
+
+.container.is-super .preset-item {
+  border-radius: 14px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.28) inset,
+    0 8px 18px rgba(24, 29, 36, 0.08);
+}
+
+.container.is-super .preset-name {
+  background: linear-gradient(180deg, rgba(17, 18, 20, 0.14), rgba(17, 18, 20, 0.54));
+  font-weight: 600;
+}
+
+.container.is-super .super-palette-host {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+}
